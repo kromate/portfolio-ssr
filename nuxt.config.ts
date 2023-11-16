@@ -2,6 +2,7 @@
 import { fileURLToPath, URL } from 'node:url'
 
 export default defineNuxtConfig({
+	ssr:true,
   devtools: { enabled: true },
   	dir: {
 		layouts: './src/layouts',
