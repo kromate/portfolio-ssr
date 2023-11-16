@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { fileURLToPath, URL } from 'node:url'
+import app from './app.config'
 
 export default {
 	ssr:true,
@@ -24,4 +25,5 @@ export default {
 			}
 		}
 	},
+	app
 }
