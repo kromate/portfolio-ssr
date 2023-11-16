@@ -25,7 +25,7 @@ export default {
    { name: 'designer', content: 'Anthony Akpan' },
    { name: 'reply-to', content: 'akpananthony33@gmail.com' },
    { name: 'coverage', content: 'Worldwide' },
-   { name: 'url', content: 'http://www.kromate.dev' },
+     { name: 'url', content: 'http://www.kromate.dev' },
    { name: 'target', content: 'all' },
    { name: 'rating', content: 'General' },
    { name: 'apple-mobile-web-app-title', content: 'Portfolio Website of Anthony Akpan' },
@@ -36,9 +36,12 @@ export default {
    { property: 'og:type', content: 'site' },
    { property: 'og:url', content: 'http://www.kromate.dev' },
    { property: 'og:image', content: 'https://raw.githubusercontent.com/kromate/v5/main/public/og.png' },
-   { property: 'og:site_name', content: 'Kromate' },
+     { property: 'og:site_name', content: 'Kromate' },
    { property: 'og:description', content: 'I\'m a software engineer specialized in building Frontend applications, occasionally backend and rarely design.' }
- ]
+        ],
+     link: [
+         { rel: 'icon', type: 'image/x-icon', href: '/logo.svg' },
+     ]
 }
 
 
