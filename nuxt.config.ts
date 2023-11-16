@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { fileURLToPath, URL } from 'node:url'
 
-export default defineNuxtConfig({
+export default {
 	ssr:true,
   devtools: { enabled: true },
   	dir: {
@@ -24,4 +24,4 @@ export default defineNuxtConfig({
 			}
 		}
 	},
-})
+}
