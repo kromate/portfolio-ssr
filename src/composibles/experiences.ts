@@ -73,4 +73,9 @@ Later went on to become a Mentor for the program the following year GADS 2020`,
 		link: { name: 'Wirepay', url: 'https://sendwirepay.com/' },
 		desc: `I Joined wirepay to build a financial service that enabled users to Receive, hold, and make payments in multiple currencies, create virtual and physical cards, and pay bills seamlessly.`,
 	},
+	{
+		title: 'Lead Frontend developer at Shuttlers',
+		link: { name: 'Shuttlers', url: 'https://www.shuttlers.africa/' },
+		desc: `While at Shuttlers, I was tasked with migrating the frontend of about four projects from Vue 2 to Nuxt 3, as well as building new features for the platform and working on the UI library.`,
+	},
 ]);
